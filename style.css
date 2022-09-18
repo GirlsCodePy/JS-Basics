@@ -1,0 +1,42 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 600px;
+    height: 400px;
+
+    background-position: center;
+    background-size: auto 100%;
+    background-image: url("joan-gamell-ZS67i1HLllo-unsplash (1).jpg");
+    transition: background-size .2s;
+}
+.card:hover {
+    background-size: auto 115%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #FFF;
+    background: rgba(0,0,0,.5);
+}
+
+h1 { 
+    margin-bottom: 0; 
+}
